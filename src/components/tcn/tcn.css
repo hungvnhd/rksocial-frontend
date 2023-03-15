@@ -1,0 +1,473 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-color: #F3F2EF;
+    font-family: var(--artdeco-reset-typography-font-family-sans);
+  }
+  
+  /* Managenetwork */
+  .t-managemynetwork{
+    font-weight: var(--artdeco-reset-typography-font-weight-normal);
+    color: rgba(0, 0, 0, 0.849);
+    font-size: 15px;
+  }
+  
+  .t-show{
+    max-width: 160px !important;
+    border-radius: 5px !important;
+  }
+  
+  .css-9mgopn-MuiDivider-root{
+    max-width: 360px;
+  }
+  
+  .t-img1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .t-grownetwork{
+    font-weight: 1000;
+    color: #1d72c7c0;
+    font-size: 19px;
+    text-align: center;
+    padding: 5px;
+    text-decoration:none ;
+  }
+  
+  .t-grownetwork:hover{
+    text-decoration:underline;
+  }
+  
+  .t-growcontainer{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .t-about{
+      list-style-type: none;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      margin: 0.6rem 3.4rem;
+  }
+  
+  .t-all{
+    text-decoration:none ;
+    color: #838080;
+    font-size: 12px;
+  }
+  
+  .t-all:hover{
+    text-decoration: underline;
+  }
+  
+  .t-spancontainer{
+    display: flex;
+    margin: 0.4rem 0.8rem;
+  }
+  
+  .css-uob957-MuiListSubheader-root{
+    line-height: 30px !important;
+  }
+  
+  .t-listcontainer{
+    position: fixed;
+  }
+  .css-tlelie-MuiListItemText-root{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  
+  .css-10hburv-MuiTypography-root{
+    line-height: normal;
+  }
+  
+  /* Manage */
+  .t-managetop{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+  }
+  
+  .css-i7rae6-MuiList-root{
+    border-radius: 6px
+  }
+  
+  .t-right{
+    font-weight: 600;
+    color:var(--color-text-low-emphasis-shift);
+    font-size: 14px;
+    width: 66px;
+  }
+  
+  .t-right:hover{
+    cursor: pointer;
+    background-color: #F3F2EF;
+    width: 80px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+  }
+  
+  .t-fradd{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    background-color: #E2F0FE;
+    padding: 10px;
+    align-items: center;
+  }
+  
+  .t-aboutfradd{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  #btn-accept{
+    background-color: #E2F0FE;
+    color: #0A66C2;
+    border-radius: 25px;
+    text-transform: none;
+    border: 1px solid #0A66C2;
+  }
+  
+  #btn-accept:hover{
+    background-color: #CBE4FD;
+  }
+  
+  #btn-ignore{
+    background-color: white;
+    color: #666666;
+    text-transform: none;
+    background-color: #E2F0FE;
+  }
+  
+  #btn-ignore:hover{
+    background-color: #D0DDEA;
+  }
+  
+  
+  
+  /* People */
+  
+  .t-right-seeall{
+    font-weight: 600;
+    color:var(--color-text-low-emphasis-shift);
+    font-size: 14px;
+    width: 62px;
+  }
+  
+  .t-right-seeall:hover{
+    cursor: pointer;
+    background-color: #F3F2EF;
+    width: 80px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+  }
+  
+  .t-cardcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .imgcontainer{
+    width: 100%;
+  }
+  
+  .css-1wlk0hk-MuiAvatar-root {
+    margin-top: -100px;  
+  }
+  
+  .t-linkedincontai{
+    margin: 5px;
+    margin-top: 0px;
+  }
+  
+  .t-displayfollow{
+    display: flex;
+    margin: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .css-1coxmi8-MuiList-root{
+    padding-top: 3px !important;
+    padding-bottom: 5px !important;
+  }
+  
+  /* Avatar */
+  
+  .name{
+    font-size: var(--font-size-xlarge);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-default);
+  }
+  
+  .companyjob{
+    font-size: 15px;
+    font-weight: var(--font-weight-regular);
+  }
+  
+  .infocontainer{
+    color:#186FC6;
+    text-decoration: none;
+    font-size:var(--font-size-small);
+    font-weight:600;
+  }
+  
+  .infocontainer:hover{
+    text-decoration: underline;
+  }
+  
+  .t-avtandpen{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .t-pen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #666666;
+  }
+  
+  .t-pen:hover{
+    background-color: #EBEBEB;
+  }
+  
+  .t-camera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #666666;
+  }
+  
+  .t-camera:hover{
+    background-color: #EBEBEB;
+  }
+  
+  #btn-open{
+    background-color: #0A66C2;
+    color: white;
+    border-radius: 25px;
+    text-transform: none;
+  }
+  
+  #btn-open:hover{
+    background-color: #004182;
+  }
+  
+  #btn-addprf{
+    background-color: white;
+    color: #2376C8;
+    border-radius: 25px;
+    text-transform: none;
+    border: 1px solid #004182;
+  }
+  
+  #btn-addprf:hover{
+    background-color: #E2F0FE;
+  }
+  
+  #btn-more{
+    background-color: white;
+    color: #666666;
+    border-radius: 25px;
+    text-transform: none;
+    border: 1px solid #666666;
+  }
+  
+  #btn-more:hover{
+    background-color: #EBEBEB;
+  }
+  
+  .css-1t6e9jv-MuiCardActions-root{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .t-active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+  
+  .t-iconeye{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .t-people{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .t-linkfr{
+    text-decoration: none;
+    color:#0A66C2;
+    font-size: 16 ;
+  }
+  
+  .t-linkfr:hover{
+    text-decoration: underline;
+  }
+  
+  /* Peopletcn */
+  
+  .t-answer{
+    color: #666666;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .t-answer:hover{
+    text-decoration: underline;
+  }
+  
+  #btn-connectfr{
+    background-color: white;
+    color: #666666;
+    border-radius: 25px;
+    text-transform: none;
+    border: 1px solid #666666;
+  }
+  
+  #btn-connectfr:hover{
+    background-color: #EBEBEB;
+  }
+  
+  .t-frconnect{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .css-46bh2p-MuiCardContent-root:last-child{
+    padding-bottom: 0px !important;
+    padding-top: 10px !important;
+  }
+  
+  .css-46bh2p-MuiCardContent-root{
+    padding-top: 0px !important;
+    padding-bottom: 10px !important;
+  }
+  
+  /* Tcncontainer */
+  
+  .t-abouttcn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  
+
+  
