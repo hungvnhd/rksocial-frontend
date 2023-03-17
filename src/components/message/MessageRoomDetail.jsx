@@ -6,11 +6,11 @@ function MessageRoomDetail() {
   const [inputMessage, setInputMessage] = useState("");
   useEffect(() => {
     const roomID = window.location.href.replace(
-      "https://localhost:3000/messaging/",
+      "https://rksocial-frontend.vercel.app/messaging/",
       ""
     );
     // console.log(
-    //   window.location.href.replace("https://localhost:3000/messaging/", "")
+    //   window.location.href.replace("https://rksocial-frontend.vercel.app/messaging/", "")
     // );
     const getData = async () => {
       const res = await fetch(
@@ -25,7 +25,7 @@ function MessageRoomDetail() {
     e.preventDefault();
     console.log(e.target.inputMessage.value);
     const roomID = window.location.href.replace(
-      "https://localhost:3000/messaging/",
+      "https://rksocial-frontend.vercel.app/messaging/",
       ""
     );
     if (e.target.inputMessage.value !== "") {

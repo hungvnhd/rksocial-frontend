@@ -74,7 +74,7 @@ function Login() {
                       {data.message}
                     </Alert>
                   );
-                  window.location.href = "https://localhost:3000/feed";
+                  window.location.href = "https://rksocial-frontend.vercel.app/feed";
                   // console.log(data);
                   console.log(Cookies.get("userID"));
                 }

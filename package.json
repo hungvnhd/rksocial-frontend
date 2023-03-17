@@ -2,6 +2,7 @@
   "name": "rikkeisocial",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://4farmers.vercel.app",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
@@ -62,6 +63,6 @@
       "last 1 safari version"
     ]
     
-  },
-  "proxy": "https://4farmers.vercel.app"
+  }
+  
 }

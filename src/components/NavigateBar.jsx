@@ -101,7 +101,7 @@ function NavigateBar() {
   };
   const handleSignout = () => {
     Cookies.remove("userID");
-    window.location.href = "https://localhost:3000/auth/login";
+    window.location.href = "https://rksocial-frontend.vercel.app/auth/login";
   };
 
   useEffect(() => {
